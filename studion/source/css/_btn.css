@@ -17,9 +17,14 @@
 .btn_saibaMais:focus,
 .btn--institutional,
 .btn--quote:hover,
-.btn--quote:active {
+.btn--quote:active,
+.btn__contato:hover {
     border-color: var(--color-primary);
     background-color: var(--color-primary);
+    color: #fff;
+}
+
+.btn__contato:hover {
     color: #fff;
 }
 
